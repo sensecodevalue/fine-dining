@@ -1,0 +1,26 @@
+{
+  "name": "fine-dining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui": "pnpm -F @fine-dining/ui",
+    "playground": "pnpm -F playground"
+  },
+  "keywords": [],
+  "author": "sensecodevalue",
+  "license": "MIT",
+  "packageManager": "pnpm@9.14.2",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "resolutions": {
+    "react": "^18",
+    "@types/react": "^18",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
