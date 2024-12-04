@@ -18,5 +18,5 @@ template: |
   $CHANGES
 include-paths:
   - "apps/playground/"
-  - ".github/"
+  - ".github/workflows/playground-*.yml"
   - "packages/ui/"
